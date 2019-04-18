@@ -1,6 +1,6 @@
 # Asynchronous Primary Processor
 
-## Note: Ths project is for GemFire V8
+## Note: GemFire V8
 
 The asynchronous primary processor is used to control processing of asynchronous queues for two Geode clusters using the WAN gateway feature  where one cluster is the primary cluster and the other cluster is the secondary or backup Geode cluster. The primary cluster is responsible for processing all asynchronous queues and in the event of a primary cluster failure the asynchronous queue processing is performed by the secondary or backup cluster. 
 
